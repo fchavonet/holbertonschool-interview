@@ -37,7 +37,7 @@ The project is implemented in C, and involves adding two 3x3 sandpiles and stabi
 
 To go beyond my initial instructions, I decided to create a [Sandpiles Simulator](https://fchavonet.github.io/holbertonschool-interview/sandpiles/sandpiles_simulator/) in HTML, CSS, and JavaScript based on my work in C. Although simple, it allows users to reliably test different combinations and gain a better understanding of the concept of sandpiles.
 
-<img src="../resources/images/sandpiles_simulator.png">
+<img width="250px" src="../resources/images/sandpiles_simulator.png" alt="Sandpiles Simulator screenshot">
 
 ## 🎓 <span id="objectives">Objectives</span>
 
