@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sandpile Simulator</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./behavior.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Sandpiles Simulator</h1>
+
+        <div id="grids_container">
+            <div class="grid">
+                <table id="grid_1"></table>
+            </div>
+
+            <p>+</p>
+
+            <div class="grid">
+                <table id="grid_2"></table>
+            </div>
+        </div>
+
+        <button id="computeButton" onclick="computeSandpile()">compute</button>
+
+        <div class="grid">
+            <table id="result"></table>
+        </div>
+    </main>
+</body>
+
+</html>
