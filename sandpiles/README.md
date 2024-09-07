@@ -237,8 +237,8 @@ alex@~/sandpiles$
 
 | **FILE**        | **DESCRIPTION**                                   |
 | :-------------: | ------------------------------------------------- |
-| `0-main.c`      | Sample `main` program to test sandpile functions. | 
-| `0-sandpiles.c` | Implementation of sandpile operations in C.       |
+| `0-main.c`      | Sample `main` program to test `sandpiles` functions. | 
+| `0-sandpiles.c` | Implementation of `sandpiles` operations in C.       |
 | `README.md`     | The readme file you are currently reading 😉.     |
 | `sandpiles.h`   | Header file with function prototypes.             |
 
