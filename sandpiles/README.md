@@ -35,6 +35,8 @@ To understand the concept more visually, you can watch this [YouTube video](http
 
 The project is implemented in C, and involves adding two 3x3 sandpiles and stabilizing the result through a series of toppling events.
 
+To go beyond my initial instructions, I decided to create a [Sandpiles Simulator](https://fchavonet.github.io/holbertonschool-interview/sandpiles/sandpiles_simulator/) in HTML, CSS, and JavaScript based on my work in C. Although simple, it allows users to reliably test different combinations and gain a better understanding of the concept of sandpiles.
+
 ## 🎓 <span id="objectives">Objectives</span>
 
 At the end of this project, I had to be able to explain to anyone, **without the help of Google** :
