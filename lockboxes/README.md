@@ -70,7 +70,7 @@ Write a method that determines if all the boxes can be opened.
 - Return `True` if all boxes can be opened, else return `False`.
 
 ```
-carrie@ubuntu:~/lockboxes$ cat main_0.py
+carrie@ubuntu:~/lockboxes$ cat 0-main.py
 #!/usr/bin/python3
 
 canUnlockAll = __import__('0-lockboxes').canUnlockAll
@@ -88,7 +88,7 @@ carrie@ubuntu:~/lockboxes$
 ```
 
 ```
-carrie@ubuntu:~/lockboxes$ ./main_0.py
+carrie@ubuntu:~/lockboxes$ ./0-main.py
 True
 True
 False
@@ -134,19 +134,19 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 
 **How to use:**
 
-1. To test the function, run the `main_0.py` file with the following command:
+1. To test the function, run the `0-main.py` file with the following command:
 
 ```
-./main_0.py
+./0-main.py
 ```
 
 or:
 
 ```
-python3 main_0.py
+python3 0-main.py
 ```
 
-3. You can modify the `main_0.py` script with your own test cases if you want.
+3. You can modify the `0-main.py` script with your own test cases if you want.
 
 ## ♥️ <span id="thanks">Thanks</span>
 
