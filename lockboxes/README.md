@@ -114,8 +114,8 @@ carrie@ubuntu:~/lockboxes$
 | **FILE**         | **DESCRIPTION**                                                                |
 | :-----------:    | ------------------------------------------------------------------------------ |
 | `0-lockboxes.py` | Python script that solves the Lockboxes problem.                               |
-| `README.md`      | The readme file you are currently reading 😉.                                  |
 | `0-main.py`      | Sample main program to test the `canUnlockAll` function with different inputs. |
+| `README.md`      | The readme file you are currently reading 😉.                                  |
 
 ## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
 
