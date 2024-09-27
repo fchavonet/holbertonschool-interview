@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-Module to calculate the perimeter of an island in a grid.
+Module that calculate the perimeter of an island in a grid.
 An island is represented by 1 numbers and water by 0 numbers.
 """
 
@@ -14,7 +14,7 @@ def island_perimeter(grid):
         grid (list of list of int): 2D grid with 1 as land and 0 as water.
 
     Returns:
-        int: The perimeter of the island.
+        int: the perimeter of the island.
     """
 
     perimeter = 0
@@ -28,12 +28,12 @@ def island_perimeter(grid):
                 perimeter += 4
 
                 # Check the cell above.
-                if grid[i - 1][j] == 1:
+                if i > 0 and grid[i - 1][j] == 1:
                     # Subtract 2 for adjacent land above.
                     perimeter -= 2
 
                 # Check the cell to the left.
-                if grid[i][j - 1] == 1:
+                if j > 0 and grid[i][j - 1] == 1:
                     # Subtract 2 for adjacent land on the left.
                     perimeter -= 2
 
