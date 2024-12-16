@@ -4,6 +4,7 @@
 Module that validate if a list of integers represents a valid UTF-8 encoding.
 """
 
+
 def validUTF8(data):
     """
     Validate if a list of integers represents a valid UTF-8 encoding.
