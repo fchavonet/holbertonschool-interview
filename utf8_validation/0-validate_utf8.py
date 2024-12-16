@@ -32,7 +32,7 @@ def validUTF8(data):
             # 3-byte character: starts with '1110'.
             elif (byte >> 4) == 0b1110:
                 num_bytes = 2
-            # 3-byte character: starts with '1110'.
+            # 4-byte character: starts with '11110'.
             elif (byte >> 3) == 0b11110:
                 num_bytes = 3
             else:
