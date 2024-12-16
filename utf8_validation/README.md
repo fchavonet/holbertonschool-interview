@@ -155,7 +155,7 @@ python3 0-main.py
 
 ## ♥️ <span id="thanks">Thanks</span>
 
-A big thank you to all my Holberton School peers and mentors for their support during this project. Your insights and feedback have been invaluable!
+A big thank you to all my Holberton School peers for their help and support throughout these projects.
 
 ## 👷 <span id="authors">Authors</span>
 
