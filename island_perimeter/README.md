@@ -151,13 +151,13 @@ chmod 777 0-island_perimeter.py 0-main.py
 
 **How to use:**
 
-1. Run the `0-main.py` file to test the island_perimeter function:
+1. To test the function, run the `0-main.py` file with the following command:
 
 ```
 ./0-main.py
 ```
 
-2. Modify the grid in `0-main.py` to test with different scenarios.
+2. You can modify the `0-main.py` script with your own test cases if you want.
 
 ## ♥️ <span id="thanks">Thanks</span>
 

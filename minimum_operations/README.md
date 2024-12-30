@@ -134,7 +134,19 @@ carrie@ubuntu:~/minoperations$
 git clone https://github.com/fchavonet/holbertonschool-interview.git
 ```
 
-2. Open the repository you've just cloned  and go in the `minimum_operations` folder.
+2. Open the repository you've just cloned.
+
+3. Navigate to the `minimum_operations` directory:
+
+```
+cd minimum_operations
+```
+
+4. Ensure the files are executable:
+
+```
+chmod 777 0-minoperations.py 0-main.py
+```
 
 **How to use:**
 
@@ -142,12 +154,6 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 
 ```
 ./0-main.py
-```
-
-or:
-
-```
-python3 0-main.py
 ```
 
 3. You can modify the `0-main.py` script with your own test cases if you want.

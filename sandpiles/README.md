@@ -37,7 +37,7 @@ The project is implemented in C, and involves adding two 3x3 sandpiles and stabi
 
 To go beyond my initial instructions, I decided to create a [Sandpiles Simulator](https://fchavonet.github.io/holbertonschool-interview/sandpiles/sandpiles_simulator/) in HTML, CSS, and JavaScript based on my work in C. Although simple, it allows users to reliably test different combinations and gain a better understanding of the concept of sandpiles.
 
-<img width="250px" src="../assets/images/sandpiles_simulator.png" alt="Sandpiles Simulator screenshot">
+<img width="250px" src="../assets/images/sandpiles/sandpiles_simulator.png" alt="Sandpiles Simulator screenshot">
 
 ## 🎓 <span id="objectives">Objectives</span>
 
@@ -255,9 +255,15 @@ alex@~/sandpiles$
 git clone https://github.com/fchavonet/holbertonschool-interview.git
 ```
 
-2. Open the repository you've just cloned and go in the `sandpiles` folder.
+2. Open the repository you've just cloned.
 
-3. Compile the program using gcc:
+3. Navigate to the `sandpiles` directory:
+
+```
+cd sandpiles
+```
+
+4. Compile the program using gcc:
 
 ```
 gcc -Wall -Wextra -Werror -pedantic 1-main.c 0-sandpiles.c -o 0-sandpiles
@@ -271,9 +277,7 @@ gcc -Wall -Wextra -Werror -pedantic 1-main.c 0-sandpiles.c -o 0-sandpiles
 ./sandpiles
 ```
 
-2. Modify the `main.c` file if you want to test the program with different initial sandpiles.
-
-3. The program will print intermediate states whenever the sandpile is unstable, as well as the final stabilized configuration.
+2. Modify the linked list in `0-main.c` to test different cases.
 
 ## ♥️ <span id="thanks">Thanks</span>
 

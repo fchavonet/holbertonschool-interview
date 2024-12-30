@@ -232,9 +232,15 @@ alex@~/slide_line$
 git clone https://github.com/fchavonet/holbertonschool-interview.git
 ```
 
-2. Open the repository you've just cloned and go in the `slide_line` folder.
+2. Open the repository you've just cloned.
 
-3. Compile the program using gcc:
+3. Navigate to the `slide_line` directory:
+
+```
+cd slide_line
+```
+
+4. Compile the program using gcc:
 
 ```
 gcc -Wall -Wextra -Werror -pedantic -o 0-slide_line 0-main.c 0-slide_line.c
@@ -242,7 +248,7 @@ gcc -Wall -Wextra -Werror -pedantic -o 0-slide_line 0-main.c 0-slide_line.c
 
 **How to use:**
 
-1. Once compiled, test the program with one of the following commands (or try your own examples):
+1. Once compiled, run the program with one of the following commands (or try your own examples):
 
 ```
 ./0-slide_line L 2 2 0 0

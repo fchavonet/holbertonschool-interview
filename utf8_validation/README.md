@@ -135,7 +135,19 @@ carrie@ubuntu:~/utf8_validation$
 git clone https://github.com/fchavonet/holbertonschool-interview.git
 ```
 
-2. Open the repository you've just cloned  and go in the `utf8_validation` folder.
+2. Open the repository you've just cloned.
+
+3. Navigate to the `utf8_validation` directory:
+
+```
+cd utf8_validation
+```
+
+4. Ensure the files are executable:
+
+```
+chmod 777 0-validate_utf8.py.py 0-main.py
+```
 
 **How to use:**
 
@@ -145,13 +157,7 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 ./0-main.py
 ```
 
-or:
-
-```
-python3 0-main.py
-```
-
-3. You can modify the `0-main.py` script with your own test cases if you want.
+2. You can modify the `0-main.py` script with your own test cases if you want.
 
 ## ♥️ <span id="thanks">Thanks</span>
 

@@ -275,9 +275,15 @@ carrie@ubuntu:0x03$
 git clone https://github.com/fchavonet/holbertonschool-interview.git
 ```
 
-2. Open the repository you've just cloned and go in the `linked_list_palindrome` folder.
+2. Open the repository you've just cloned.
 
-3. Compile the program using gcc:
+3. Navigate to the `linked_list_palindrome` directory:
+
+```
+cd linked_list_palindrome
+```
+
+4. Compile the program using gcc:
 
 ```
 gcc -Wall -Werror -Wextra -pedantic 0-main.c linked_lists.c 0-is_palindrome.c -o is_palindrome
