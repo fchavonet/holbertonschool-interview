@@ -6,7 +6,7 @@
 /**
  * regex_match - Checks whether the given pattern matches the given string.
  * @str: the string to scan.
- * @pattern: the regular expression, which may include "." and "*".
+ * @pattern: the regular expression, which may include '.' and '*'.
  *
  * Return: 1 if the pattern matches the string exactly, 0 otherwise.
  */
