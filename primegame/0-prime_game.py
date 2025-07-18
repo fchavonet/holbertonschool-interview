@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+"""
+Module implementing a prime number game between Maria and Ben.
+"""
+
 def isWinner(x, nums):
     """
     Determine the winner of the prime game for multiple rounds.
