@@ -29,18 +29,15 @@ def parse_line(line):
         if len(parts) < 2:
             return None, None
 
-        file_size = None
-        try:
-            file_size = int(parts[-1])
-        except (ValueError, IndexError):
-            pass
-
-        status_code = None
-
         try:
             status_code = int(parts[-2])
-        except (ValueError, IndexError):
-            pass
+        except ValueError:
+            status_code = None
+
+        try:
+            file_size = int(parts[-1])
+        except ValueError:
+            file_size = None
 
         return status_code, file_size
 
@@ -58,17 +55,16 @@ if __name__ == "__main__":
         for line in sys.stdin:
             status_code, file_size = parse_line(line)
 
-            if status_code is None or file_size is None:
-                continue
+            if file_size is not None:
+                total_size += file_size
 
-            total_size += file_size
-            line_count += 1
-
-            if status_code in valid_codes:
+            if status_code is not None and status_code in valid_codes:
                 if status_code in status_counts:
                     status_counts[status_code] += 1
                 else:
                     status_counts[status_code] = 1
+
+            line_count += 1
 
             if line_count % 10 == 0:
                 print_stats(total_size, status_counts)
