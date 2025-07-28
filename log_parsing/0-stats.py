@@ -68,4 +68,6 @@ if __name__ == "__main__":
                 print_stats(total_size, status_counts)
 
     except KeyboardInterrupt:
-        print_stats(total_size, status_counts)
+        pass
+
+    print_stats(total_size, status_counts)
