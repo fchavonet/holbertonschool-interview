@@ -36,11 +36,11 @@ def parse_line(line):
             pass
 
         status_code = None
-        if len(parts) >= 2:
-            try:
-                status_code = int(parts[-2])
-            except (ValueError, IndexError):
-                pass
+
+        try:
+            status_code = int(parts[-2])
+        except (ValueError, IndexError):
+            pass
 
         return status_code, file_size
 
@@ -58,7 +58,7 @@ if __name__ == "__main__":
         for line in sys.stdin:
             status_code, file_size = parse_line(line)
 
-            if status_code is None:
+            if status_code is None or file_size is None:
                 continue
 
             total_size += file_size
@@ -75,5 +75,5 @@ if __name__ == "__main__":
 
     except KeyboardInterrupt:
         pass
-
-    print_stats(total_size, status_counts)
+    finally:
+        print_stats(total_size, status_counts)
