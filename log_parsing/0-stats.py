@@ -20,33 +20,29 @@ def print_stats(total_size, status_counts):
 
 
 def parse_line(line):
-    """
-    Parse a log line and extract status code and file size.
-    """
+    """Parse a log line and extract status code and file size."""
 
     try:
         line = line.strip()
-
         if not line:
             return None, None
 
         parts = line.split()
-
-        if len(parts) < 9:
+        if len(parts) < 2:
             return None, None
 
-        status_code = int(parts[-2])
-        file_size = int(parts[-1])
+        try:
+            status_code = int(parts[-2])
+            file_size = int(parts[-1])
+            return status_code, file_size
+        except (ValueError, IndexError):
+            try:
+                file_size = int(parts[-1])
+                return None, file_size
+            except (ValueError, IndexError):
+                return None, None
 
-        if status_code < 100 or status_code > 599:
-            return None, None
-
-        if file_size < 0:
-            return None, None
-
-        return status_code, file_size
-
-    except (ValueError, IndexError):
+    except:
         return None, None
 
 
