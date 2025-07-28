@@ -33,10 +33,7 @@ def parse_line(line):
         status_code = int(parts[-2])
         file_size = int(parts[-1])
 
-        if '"GET' in line and '/projects/260' in line and 'HTTP/1.1"' in line:
-            return status_code, file_size
-
-        return None, None
+        return status_code, file_size
 
     except (ValueError, IndexError):
         return None, None
