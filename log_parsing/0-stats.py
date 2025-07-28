@@ -25,27 +25,26 @@ def parse_line(line):
     """
 
     try:
-        line = line.strip()
-        if not line:
-            return None, None
-
-        parts = line.split()
+        parts = line.strip().split()
         if len(parts) < 2:
             return None, None
 
+        file_size = None
         try:
             file_size = int(parts[-1])
-        except ValueError:
-            file_size = None
+        except (ValueError, IndexError):
+            pass
 
-        try:
-            status_code = int(parts[-2])
-        except ValueError:
-            status_code = None
+        status_code = None
+        if len(parts) >= 2:
+            try:
+                status_code = int(parts[-2])
+            except (ValueError, IndexError):
+                pass
 
         return status_code, file_size
 
-    except (IndexError, AttributeError):
+    except Exception:
         return None, None
 
 
