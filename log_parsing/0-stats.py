@@ -25,13 +25,24 @@ def parse_line(line):
     """
 
     try:
+        line = line.strip()
+
+        if not line:
+            return None, None
+
         parts = line.split()
 
-        if len(parts) < 7:
+        if len(parts) < 9:
             return None, None
 
         status_code = int(parts[-2])
         file_size = int(parts[-1])
+
+        if status_code < 100 or status_code > 599:
+            return None, None
+
+        if file_size < 0:
+            return None, None
 
         return status_code, file_size
 
