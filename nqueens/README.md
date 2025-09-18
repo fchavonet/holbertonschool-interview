@@ -64,6 +64,7 @@ At the end of this project, I should be able to explain to anyone, **without the
 <img src="https://www.crestbook.com/files/Judit-photo1_602x433.jpg" alt="Judit Polgár">
 <br>
 <small>Chess grandmaster <a href="/rltoken/nAw5LLLBZkE_Mvl75OhnRQ" title="Judit Polgár" target="_blank">Judit Polgár</a>, the strongest female chess player of all time!</small>
+<br>
 
 The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
 
