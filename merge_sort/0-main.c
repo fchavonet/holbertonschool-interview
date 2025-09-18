@@ -1,4 +1,4 @@
-#include "merge_sort.h"
+#include "sort.h"
 
 /**
  * main - Entry point.

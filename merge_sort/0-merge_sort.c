@@ -1,4 +1,4 @@
-#include "merge_sort.h"
+#include "sort.h"
 
 /**
  * merge - Merge two sorted subarrays into a single sorted array.
