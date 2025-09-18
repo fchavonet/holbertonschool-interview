@@ -135,6 +135,16 @@ alexa@ubuntu:~/wild_cmp$
 <hr>
 </details>
 
+## <span id="tech-stack">Tech stack</span>
+
+<p align="left">
+    <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
+    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
+    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
+    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
+    <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
+</p>
+
 ## <span id="files-description">Files description</span>
 
 | **FILES**     | **DESCRIPTION**                                    |
