@@ -1,33 +1,33 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-holberton_school.png" alt="Holberton School logo">
+<img height="50" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/refs/heads/main/assets/images/logo-holberton_school.webp" alt="Holberton School logo">
 
 # 2048 (Single Line)
 
-## 🔖 Table of contents
+## Table of contents
 
 <details>
-        <summary>
+    <summary>
         CLICK TO ENLARGE 😇
-        </summary>
-        📄 <a href="#description">Description</a>
-        <br>
-        🎓 <a href="#objectives">Objectives</a>
-        <br>
-        📋 <a href="#requirements">Requirements</a>
-        <br>
-        📝 <a href="#instructions">Instructions</a>
-        <br>
-        🔨 <a href="#tech-stack">Tech stack</a>
-        <br>
-        📂 <a href="#files-description">Files description</a>
-        <br>
-        💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
-        <br>
-        ♥️ <a href="#thanks">Thanks</a>
-        <br>
-        👷 <a href="#authors">Authors</a>
+    </summary>
+    <a href="#description">Description</a>
+    <br>
+    <a href="#objectives">Objectives</a>
+    <br>
+    <a href="#requirements">Requirements</a>
+    <br>
+    <a href="#instructions">Instructions</a>
+    <br>
+    <a href="#tech-stack">Tech stack</a>
+    <br>
+    <a href="#files-description">Files description</a>
+    <br>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <br>
+    <a href="#thanks">Thanks</a>
+    <br>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📄 <span id="description">Description</span>
+## <span id="description">Description</span>
 
 This project involves implementing the mechanics of the popular [2048 game](https://play2048.co), but on a single horizontal line. The goal is to be able to slide and merge an array of integers either to the left or to the right, following the rules of 2048 where identical numbers, if they are contiguous or separated by zeros, are merged.
 
@@ -39,16 +39,16 @@ Input: `2 2 0 0`
 <br>
 Slide Left: `4 0 0 0`
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
-At the end of this project, I had to be able to explain to anyone, **without the help of Google** :
+At the end of this project, I should be able to explain to anyone, **without the help of Google**:
 
 - The mechanics of the 2048 game in terms of array manipulation.
 - How to implement array operations without using dynamic memory allocation.
 - The concept of sliding and merging elements in a given direction.
 - Write modular, clean, and efficient C code.
 
-## 📋 <span id="requirements">Requirements</span>
+## <span id="requirements">Requirements</span>
 
 - My programs and functions will be compiled with `gcc` using the flags `-Wall`, `-Werror`, `-Wextra` and `-pedantic`.
 - All my files should end with a new line.
@@ -59,7 +59,9 @@ At the end of this project, I had to be able to explain to anyone, **without the
 - Don’t forget to push my header file...
 - All my header files should be include guarded.
 
-## 📝 <span id="instructions">Instructions</span>
+## <span id="instructions">Instructions</span>
+
+### Mandatory
 
 <details>
     <summary>
@@ -81,7 +83,7 @@ Given an array of integers, we want to be able to slide & merge it to the left o
 - Your function must return `1` upon success, or `0` upon failure.
 - You are **not allowed** to allocate memory dynamically (malloc, calloc, …).
 
-```
+```bash
 alex@~/slide_line$ cat 0-main.c 
 #include <stdlib.h>
 #include <stdio.h>
@@ -204,31 +206,35 @@ alex@~/slide_line$
 <hr>
 </details>
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
+    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
+    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
+    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
+    <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
 </p>
 
-## 📂 <span id="files-description">File description</span>
+## <span id="files-description">Files description</span>
 
-| **FILE**         | **DESCRIPTION**                                       |
+| **FILES**         | **DESCRIPTION**                                                            |
 | :--------------: | ----------------------------------------------------- |
-| `0-main.c`       | Sample `main` program to test `slide_line` functions. | 
-| `0-slide_libe.c` |  Implementation oif the `slide_line` function.        |
-| `README.md`      | The readme file you are currently reading 😉.         |
 | `slide_line.h`   | Header file with function prototypes.                 |
+| `0-slide_libe.c` |  Implementation oif the `slide_line` function.        |
+| `0-main.c`       | Sample `main` program to test `slide_line` functions. | 
+| `README.md`      | The README file you are currently reading 😉.         |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Installation:**
+### Installation:
 
 1. Clone this repository:
     - Open your preferred Terminal.
     - Navigate to the directory where you want to clone the repository.
     - Run the following command:
 
-```
+```bash
 git clone https://github.com/fchavonet/holbertonschool-interview.git
 ```
 
@@ -236,37 +242,37 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 
 3. Navigate to the `slide_line` directory:
 
-```
+```bash
 cd slide_line
 ```
 
-4. Compile the program using gcc:
+4. Compile the program using `gcc`:
 
-```
+```bash
 gcc -Wall -Wextra -Werror -pedantic -o 0-slide_line 0-main.c 0-slide_line.c
 ```
 
-**How to use:**
+### How to use:
 
 1. Once compiled, run the program with one of the following commands (or try your own examples):
 
-```
+```bash
 ./0-slide_line L 2 2 0 0
 ```
 
-```
+```bash
 ./0-slide_line R 2 2 2 2
 ```
 
-```
+```bash
 ./0-slide_line L 2 2 0 0 0 0 0 2 0 0 0 2 0 4
 ```
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
-A big thank you to all my Holberton School peers for their help and support throughout these projects.
+- A big thank you to all my Holberton School peers for their help and support throughout this project.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
-- Github: [@fchavonet](https://github.com/fchavonet)
+- GitHub: [@fchavonet](https://github.com/fchavonet)

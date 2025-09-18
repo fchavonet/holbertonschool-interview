@@ -1,39 +1,39 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-holberton_school.png" alt="Holberton School logo">
+<img height="50" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/refs/heads/main/assets/images/logo-holberton_school.webp" alt="Holberton School logo">
 
 # Log Parsing
 
-## 🔖 Table of contents
+## Table of contents
 
 <details>
     <summary>
         CLICK TO ENLARGE 😇
     </summary>
-    📄 <a href="#description">Description</a>
+    <a href="#description">Description</a>
     <br>
-    🎓 <a href="#objectives">Objectives</a>
+    <a href="#objectives">Objectives</a>
     <br>
-    📋 <a href="#requirements">Requirements</a>
+    <a href="#requirements">Requirements</a>
     <br>
-    📝 <a href="#instructions">Instructions</a>
+    <a href="#instructions">Instructions</a>
     <br>
-    🔨 <a href="#tech-stack">Tech stack</a>
+    <a href="#tech-stack">Tech stack</a>
     <br>
-    📂 <a href="#files-description">Files description</a>
+    <a href="#files-description">Files description</a>
     <br>
-    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
     <br>
-    ♥️ <a href="#thanks">Thanks</a>
+    <a href="#thanks">Thanks</a>
     <br>
-    👷 <a href="#authors">Authors</a>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📄 <span id="description">Description</span>
+## <span id="description">Description</span>
 
 This project involves building a Python script that parses HTTP logs streamed through standard input, calculates the total file size transferred, and counts the number of lines for specific HTTP status codes. It is designed to update the metrics after every 10 lines or when manually interrupted (via `CTRL + C`).
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
-At the end of this project, I had to be able to explain to anyone, **without the help of Google** :
+At the end of this project, I should be able to explain to anyone, **without the help of Google**:
 
 - How to read from `stdin` line by line using Python.
 - How to parse and validate input based on a specific format.
@@ -41,16 +41,18 @@ At the end of this project, I had to be able to explain to anyone, **without the
 - How to handle interrupts and gracefully exit a program.
 - How to format output in a clean and ordered manner.
 
-## 📋 <span id="requirements">Requirements</span>
+## <span id="requirements">Requirements</span>
 
 - All my files should end with a new line.
 - The first line of all my files should be exactly `#!/usr/bin/python3`.
 - A `README.md` file, at the root of the folder of the project, is mandatory.
 - My code should be documented.
-- My code should use the `PEP 8` style (version 1.7.x).
+- My code should use the `PEP` 8 style (version 1.7.x).
 - All my files must be executable.
 
-## 📝 <span id="instructions">Instructions</span>
+## <span id="instructions">Instructions</span>
+
+### Mandatory
 
 <details>
     <summary>
@@ -145,7 +147,7 @@ alexa@ubuntu:~/log_parsing$
 <hr>
 </details>
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge" alt="Python badge">
@@ -155,7 +157,7 @@ alexa@ubuntu:~/log_parsing$
     <img src="https://img.shields.io/badge/VS CODE-007acc?logo=data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjZmZmZmZmIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0wLjUgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4KDTxwYXRoIGQ9Im0xNy44NTggMjMuOTk4LTkuNzcxLTkuNDg0LTUuODY2IDQuNDY1LTIuMjIxLTEuMTE1di0xMS43MTlsMi4yMzQtMS4xMjEgNS44NyA0LjQ2OSA5Ljc0Ny05LjQ5MyA1LjU4NyAyLjIzOXYxOS41MzFsLTUuNTc5IDIuMjN6bS0uNTYzLTE2LjE4Ni01LjU3NyA0LjE3MyA1LjU4IDQuMjAyem0tMTQuNTA3IDEuNjg1djUuMDE2bDIuNzg3LTIuNTI1eiIvPgoNPC9nPgoNPC9zdmc+&logoColor=white&style=for-the-badge" alt="VS Code badge">
 </p>
 
-## 📂 <span id="files-description">Files description</span>
+## <span id="files-description">Files description</span>
 
 | **FILES**        | **DESCRIPTION**                               |
 | :--------------: | --------------------------------------------- |
@@ -163,9 +165,9 @@ alexa@ubuntu:~/log_parsing$
 | `0-stats.py`     | The script to implement.                      |
 | `README.md`      | The README file you are currently reading 😉. |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Installation:**
+### Installation:
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -184,13 +186,13 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 cd log_parsing
 ```
 
-4. Make the files executable:
+4. Ensure Python files are executable:
 
 ```bash
 chmod +x 0-stats.py 0-generator.py
 ```
 
-**How to use:**
+### How to use:
 
 1. Run the parser with generated logs:
 
@@ -198,13 +200,13 @@ chmod +x 0-stats.py 0-generator.py
 ./0-generator.py | ./0-stats.py
 ```
 
-2. You can interrupt at any time using `CTRL + C` to display final metrics.
+> You can interrupt at any time using `CTRL + C` to display final metrics.
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
-A big thank you to all my Holberton School peers for their help and support throughout these projects.
+- A big thank you to all my Holberton School peers for their help and support throughout this project.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
 - GitHub: [@fchavonet](https://github.com/fchavonet)

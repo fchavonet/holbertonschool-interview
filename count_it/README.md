@@ -50,7 +50,7 @@ At the end of this project, I should be able to explain to anyone, **without the
 - The first line of all my files should be exactly `#!/usr/bin/python3`.
 - A `README.md` file, at the root of the folder of the project, is mandatory.
 - My code should be documented.
-- My code should use the PEP 8 style (version 1.7.x).
+- My code should use the `PEP` 8 style (version 1.7.x).
 - All my files must be executable.
 
 ## <span id="instructions">Instructions</span>
@@ -186,7 +186,7 @@ chmod +x 0-count.py 0-main.py
 
 ### How to use:
 
-1. Run the program with:
+1. To test the function, run the `0-main.py` file with the following command:
 
 ```bash
 python 0-main.py <subreddit> "<list of keywords>"

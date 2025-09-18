@@ -1,33 +1,33 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-holberton_school.png" alt="Holberton School logo">
+<img height="50" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/refs/heads/main/assets/images/logo-holberton_school.webp" alt="Holberton School logo">
 
 # Sandpiles
 
-## 🔖 Table of contents
+## Table of contents
 
 <details>
-        <summary>
+    <summary>
         CLICK TO ENLARGE 😇
-        </summary>
-        📄 <a href="#description">Description</a>
-        <br>
-        🎓 <a href="#objectives">Objectives</a>
-        <br>
-        📋 <a href="#requirements">Requirements</a>
-        <br>
-        📝 <a href="#instructions">Instructions</a>
-        <br>
-        🔨 <a href="#tech-stack">Tech stack</a>
-        <br>
-        📂 <a href="#files-description">Files description</a>
-        <br>
-        💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
-        <br>
-        ♥️ <a href="#thanks">Thanks</a>
-        <br>
-        👷 <a href="#authors">Authors</a>
+    </summary>
+    <a href="#description">Description</a>
+    <br>
+    <a href="#objectives">Objectives</a>
+    <br>
+    <a href="#requirements">Requirements</a>
+    <br>
+    <a href="#instructions">Instructions</a>
+    <br>
+    <a href="#tech-stack">Tech stack</a>
+    <br>
+    <a href="#files-description">Files description</a>
+    <br>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <br>
+    <a href="#thanks">Thanks</a>
+    <br>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📄 <span id="description">Description</span>
+## <span id="description">Description</span>
 
 This project simulates the behavior of sandpiles, which is a mathematical model from dynamical systems and physics. It uses a grid where each cell holds a number of grains of sand. If a cell holds 4 or more grains, it "topples," distributing its grains to neighboring cells, which can cause a chain reaction.
 
@@ -39,9 +39,9 @@ To go beyond my initial instructions, I decided to create a [Sandpiles Simulator
 
 <img width="250px" src="../assets/images/sandpiles/sandpiles_simulator.png" alt="Sandpiles Simulator screenshot">
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
-At the end of this project, I had to be able to explain to anyone, **without the help of Google** :
+At the end of this project, I should be able to explain to anyone, **without the help of Google**:
 
 - Understand and implement the [Abelian Sandpile Model](https://en.wikipedia.org/wiki/Abelian_sandpile_model).
 - Work with 2D arrays in C and perform operations on them.
@@ -49,18 +49,20 @@ At the end of this project, I had to be able to explain to anyone, **without the
 - Write modular, clean, and efficient C code.
 - Display intermediate steps and the final result of the stabilization process.
 
-## 📋 <span id="requirements">Requirements</span>
+## <span id="requirements">Requirements</span>
 
 - My programs and functions will be compiled with `gcc` using the flags `-Wall`, `-Werror`, `-Wextra` and `-pedantic`.
 - All my files should end with a new line.
 - My code should use the Betty style. It will be checked using [betty-style.pl](https://github.com/hs-hq/Betty/blob/main/betty-style.pl) and [betty-doc.pl](https://github.com/hs-hq/Betty/blob/main/betty-doc.pl).
 - I am not allowed to use global variables.
 - No more than 5 functions per file.
-- The prototypes of all my functions should be included in my header file called `sandpiles.h`.
+- The prototypes of all my functions should be included in my header file called `sort.h`.
 - Don’t forget to push my header file...
 - All my header files should be include guarded.
 
-## 📝 <span id="instructions">Instructions</span>
+## <span id="instructions">Instructions</span>
+
+### Mandatory
 
 <details>
     <summary>
@@ -77,7 +79,7 @@ Write a function that computes the sum of two sandpiles.
 - `grid1` must be printed before each toppling round, only if it is unstable (see example).
 - I am not allowed to allocate memory dynamically.
 
-```
+```bash
 alex@~/sandpiles$ cat 0-main.c 
 #include <stdlib.h>
 #include <stdio.h>
@@ -224,34 +226,39 @@ alex@~/sandpiles$
 <hr>
 </details>
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
     <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5 badge">
-    <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3 badge">
+    <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css&logoColor=white&style=for-the-badge" alt="CSS3 badge">
     <img src="https://img.shields.io/badge/JAVASCRIPT-f7df1e?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript badge">
+    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
+    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
+    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
+    <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
 </p>
  
-## 📂 <span id="files-description">File description</span>
+## <span id="files-description">Files description</span>
 
-| **FILE**        | **DESCRIPTION**                                   |
-| :-------------: | ------------------------------------------------- |
-| `0-main.c`      | Sample `main` program to test `sandpiles` functions. | 
-| `0-sandpiles.c` | Implementation of `sandpiles` operations in C.       |
-| `README.md`     | The readme file you are currently reading 😉.     |
-| `sandpiles.h`   | Header file with function prototypes.             |
+| **FILES**             | **DESCRIPTION**                                      |
+| :-------------------: | ---------------------------------------------------- |
+| `sandpiles_simulator` | Contains a JavaScript implementation with UI.        | 
+| `sandpiles.h`         | Header file with function prototypes.                |
+| `0-sandpiles.c`       | Implementation of `sandpiles` operations in C.       |
+| `0-main.c`            | Sample `main` program to test `sandpiles` functions. | 
+| `README.md`           | The README file you are currently reading 😉.        |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Installation:**
+### Installation:
 
 1. Clone this repository:
     - Open your preferred Terminal.
     - Navigate to the directory where you want to clone the repository.
     - Run the following command:
 
-```
+```bash
 git clone https://github.com/fchavonet/holbertonschool-interview.git
 ```
 
@@ -259,31 +266,31 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 
 3. Navigate to the `sandpiles` directory:
 
-```
+```bash
 cd sandpiles
 ```
 
-4. Compile the program using gcc:
+4. Compile the program using `gcc`:
 
-```
+```bash
 gcc -Wall -Wextra -Werror -pedantic 1-main.c 0-sandpiles.c -o 0-sandpiles
 ```
 
-**How to use:**
+### How to use:
 
-1. Once compiled, run the program with:
+1. Run the binary:
 
-```
+```bash
 ./sandpiles
 ```
 
-2. Modify the linked list in `0-main.c` to test different cases.
+> You can modify the `0-main.c` script with your own test cases if you want.
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
-A big thank you to all my Holberton School peers for their help and support throughout these projects.
+- A big thank you to all my Holberton School peers for their help and support throughout this project.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
-- Github: [@fchavonet](https://github.com/fchavonet)
+- GitHub: [@fchavonet](https://github.com/fchavonet)

@@ -198,7 +198,7 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 cd merge_sort
 ```
 
-4. Compile the program using gcc:
+4. Compile the program using `gcc`:
 
 ```bash
 gcc -Wall -Wextra -Werror -pedantic 0-main.c 0-merge_sort.c print_array.c -o merge
@@ -212,7 +212,7 @@ gcc -Wall -Wextra -Werror -pedantic 0-main.c 0-merge_sort.c print_array.c -o mer
 ./merge
 ```
 
-2. The program prints the original array, the merging steps, and the sorted array.
+> The program prints the original array, the merging steps, and the sorted array.
 
 ## <span id="thanks">Thanks</span>
 

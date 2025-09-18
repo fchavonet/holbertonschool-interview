@@ -1,35 +1,35 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-holberton_school.png" alt="Holberton School logo">
+<img height="50" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/refs/heads/main/assets/images/logo-holberton_school.webp" alt="Holberton School logo">
 
 # Menger Sponge
 
-## 🔖 Table of contents
+## Table of contents
 
 <details>
     <summary>
         CLICK TO ENLARGE 😇
     </summary>
-    📄 <a href="#description">Description</a>
+    <a href="#description">Description</a>
     <br>
-    🎓 <a href="#objectives">Objectives</a>
+    <a href="#objectives">Objectives</a>
     <br>
-    📋 <a href="#requirements">Requirements</a>
+    <a href="#requirements">Requirements</a>
     <br>
-    📝 <a href="#instructions">Instructions</a>
+    <a href="#instructions">Instructions</a>
     <br>
-    🔨 <a href="#tech-stack">Tech stack</a>
+    <a href="#tech-stack">Tech stack</a>
     <br>
-    📂 <a href="#files-description">Files description</a>
+    <a href="#files-description">Files description</a>
     <br>
-    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
     <br>
-    ♥️ <a href="#thanks">Thanks</a>
+    <a href="#thanks">Thanks</a>
     <br>
-    👷 <a href="#authors">Authors</a>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📄 <span id="description">Description</span>
+## <span id="description">Description</span>
 
-This project consists of implementing a function `void menger(int level)` that draws a **2D Menger Sponge** fractal.  
+This project consists of implementing a function `void menger(int level)` that draws a 2D Menger Sponge fractal.  
 A Menger Sponge is a fractal curve built recursively:  
 - A level 0 sponge is represented by the `#` character.  
 - A level N sponge is a 3x3 square of level N-1 sponges, except the center one which is left empty.  
@@ -37,9 +37,9 @@ A Menger Sponge is a fractal curve built recursively:
 
 The program outputs the representation of the sponge directly to the standard output.
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
-At the end of this project, I had to be able to explain to anyone, **without the help of Google** :
+At the end of this project, I had to be able to explain to anyone, **without the help of Google**:
 
 - What a Menger Sponge is and how it is constructed recursively.  
 - How to compute the size of the sponge using powers of 3.  
@@ -47,7 +47,7 @@ At the end of this project, I had to be able to explain to anyone, **without the
 - How to structure clean, modular and Betty-compliant C code.  
 - How to compile and link C code using GCC with strict flags. 
 
-## 📋 <span id="requirements">Requirements</span>
+## <span id="requirements">Requirements</span>
 
 - My programs and functions will be compiled with `gcc` using the flags `-Wall`, `-Werror`, `-Wextra` and `-pedantic`.
 - All my files should end with a new line.
@@ -58,7 +58,9 @@ At the end of this project, I had to be able to explain to anyone, **without the
 - Don’t forget to push my header file...
 - All my header files should be include guarded.
 
-## 📝 <span id="instructions">Instructions</span>
+## <span id="instructions">Instructions</span>
+
+### Mandatory
 
 <details>
     <summary>
@@ -87,7 +89,7 @@ Format:
 
 - TIP: The size of a level `N` Menger sponge is calculated as follows: `3^N`.
 
-```
+```bash
 alex@~/menger$ cat 0-main.c 
 #include <stdio.h>
 #include <stdlib.h>
@@ -256,13 +258,17 @@ alex@~/menger$
 <hr>
 </details>
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
+    <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
+    <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
+    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
+    <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
 </p>
 
-## 📂 <span id="files-description">Files description</span>
+## <span id="files-description">Files description</span>
 
 | **FILES**    | **DESCRIPTION**                                                   |
 | :----------: | ----------------------------------------------------------------- |
@@ -271,9 +277,9 @@ alex@~/menger$
 | `0-main.c`   | Example usage of the `menger` function (for testing, not pushed). |
 | `README.md`  | The README file you are currently reading 😉.                    |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Installation:**
+### Installation:
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -292,13 +298,13 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 cd menger
 ```
 
-4. Compile the program using gcc:
+4. Compile the program using `gcc`:
 
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -o 0-menger 0-menger.c 0-main.c -lm
 ```
 
-**How to use:**
+### How to use:
 
 1. Once compiled, run the program with:
 
@@ -306,13 +312,13 @@ gcc -Wall -Werror -Wextra -pedantic -o 0-menger 0-menger.c 0-main.c -lm
 ./0-menger 2
 ```
 
-2. Replace `2` with any desired level to draw the corresponding Menger Sponge.
+> Replace `2` with any desired level to draw the corresponding Menger Sponge.
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
-A big thank you to all my Holberton School peers for their help and support throughout these projects.
+- A big thank you to all my Holberton School peers for their help and support throughout this project.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
 - GitHub: [@fchavonet](https://github.com/fchavonet)

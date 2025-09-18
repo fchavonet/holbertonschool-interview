@@ -1,33 +1,33 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-holberton_school.png" alt="Holberton School logo">
+<img height="50" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/refs/heads/main/assets/images/logo-holberton_school.webp" alt="Holberton School logo">
 
 # RegEx
 
-## 🔖 Table of contents
+## Table of contents
 
 <details>
     <summary>
         CLICK TO ENLARGE 😇
     </summary>
-    📄 <a href="#description">Description</a>
+    <a href="#description">Description</a>
     <br>
-    🎓 <a href="#objectives">Objectives</a>
+    <a href="#objectives">Objectives</a>
     <br>
-    📋 <a href="#requirements">Requirements</a>
+    <a href="#requirements">Requirements</a>
     <br>
-    📝 <a href="#instructions">Instructions</a>
+    <a href="#instructions">Instructions</a>
     <br>
-    🔨 <a href="#tech-stack">Tech stack</a>
+    <a href="#tech-stack">Tech stack</a>
     <br>
-    📂 <a href="#files-description">Files description</a>
+    <a href="#files-description">Files description</a>
     <br>
-    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
     <br>
-    ♥️ <a href="#thanks">Thanks</a>
+    <a href="#thanks">Thanks</a>
     <br>
-    👷 <a href="#authors">Authors</a>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📄 <span id="description">Description</span>
+## <span id="description">Description</span>
 
 In this project, you will implement a function in C that checks whether a given regular expression pattern matches an entire input string. The engine must support two special characters:
 
@@ -36,27 +36,29 @@ In this project, you will implement a function in C that checks whether a given 
 
 For example, the pattern `H*` matches `"H"`, `"HH"`, or even an empty string, while `.*` matches any string. The function must return `1` if the pattern matches the entire string, or `0` otherwise.
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
-At the end of this project, I had to be able to explain to anyone, **without the help of Google** :
+At the end of this project, I should be able to explain to anyone, **without the help of Google**:
 
 - How to design and implement a recursive algorithm for simple regular expression matching.
 - How to handle the special behavior of `.` and `*` in a pattern.
 - How to structure C code with header files and implementation files while adhering to style guidelines.
 - How to use include guards and avoid global variables in a C project.
 
-## 📋 <span id="requirements">Requirements</span>
+## <span id="requirements">Requirements</span>
 
-- Use C language.
-- Compiler: `gcc`with `flags -Wall -Werror -Wextra -pedantic`.
-- Follow the [Betty](https://github.com/alx-tools/Betty) style guidelines.
-- Do not use global variables.
-- Do not define more than five functions per file.
-- All function prototypes must be declared in a header file named `regex.h`.
-- Include guards must be present in all header files.
-- Your repository should include only `regex.c`, `regex.h`, and optionally a `main.c`.
+- My programs and functions will be compiled with `gcc` using the flags `-Wall`, `-Werror`, `-Wextra` and `-pedantic`.
+- All my files should end with a new line.
+- My code should use the Betty style. It will be checked using [betty-style.pl](https://github.com/hs-hq/Betty/blob/main/betty-style.pl) and [betty-doc.pl](https://github.com/hs-hq/Betty/blob/main/betty-doc.pl).
+- I am not allowed to use global variables.
+- No more than 5 functions per file.
+- The prototypes of all my functions should be included in my header file called `sort.h`.
+- Don’t forget to push my header file...
+- All my header files should be include guarded.
 
-## 📝 <span id="instructions">Instructions</span>
+## <span id="instructions">Instructions</span>
+
+### Mandatory
 
 <details>
     <summary>
@@ -147,7 +149,7 @@ alex@~/holbertonschool-interview_prep/regex$
 <hr>
 </details>
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
@@ -159,7 +161,7 @@ alex@~/holbertonschool-interview_prep/regex$
 
 ## 📂 <span id="files-description">File description</span>
 
-| **FILE**    | **DESCRIPTION**                                                                                    |
+| **FILES**   | **DESCRIPTION**                                                                                    |
 | :---------: | -------------------------------------------------------------------------------------------------- |
 | `regex.h`   | Header file containing the prototype for `regex_match` and include guards.                         |
 | `regex.c`   | Implementation of the `regex_match` function and its helper routines (`match_here`, `match_star`). |
@@ -167,9 +169,9 @@ alex@~/holbertonschool-interview_prep/regex$
 | `README.md` | The README file you are currently reading 😉.                                                      |
 
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Installation:**
+### Installation:
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -180,19 +182,21 @@ alex@~/holbertonschool-interview_prep/regex$
 git clone https://github.com/fchavonet/holbertonschool-interview.git
 ```
 
-2. Navigate into the regex directory:
+2. Open the repository you've just cloned.
+
+3. Navigate to the `regex` directory:
 
 ```bash
-cd holbertonschool-interview/regex
+cd regex
 ```
 
-4. Run the compilation command:
+4. Compile the program using `gcc`:
 
 ```bash
 gcc -Wall -Wextra -Werror -pedantic regex.c main.c -o regex_test
 ```
 
-**How to use:**
+### How to use:
 
 1. Run the binary:
 
@@ -220,11 +224,11 @@ Holberton -> .olberton = 1
 !H@o#l$b%e^r&t(o)n_ -> !.@.#.$.%.^.&.(.)._ = 1
 ```
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
-A big thank you to all my Holberton School peers for their help and support throughout these projects.
+- A big thank you to all my Holberton School peers for their help and support throughout this project.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
 - GitHub: [@fchavonet](https://github.com/fchavonet)

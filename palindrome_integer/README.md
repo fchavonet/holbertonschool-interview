@@ -1,48 +1,48 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-holberton_school.png" alt="Holberton School logo">
+<img height="50" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/refs/heads/main/assets/images/logo-holberton_school.webp" alt="Holberton School logo">
 
 # Palindrome Integer
 
-## 🔖 Table of contents
+## Table of contents
 
 <details>
     <summary>
         CLICK TO ENLARGE 😇
     </summary>
-    📄 <a href="#description">Description</a>
+    <a href="#description">Description</a>
     <br>
-    🎓 <a href="#objectives">Objectives</a>
+    <a href="#objectives">Objectives</a>
     <br>
-    📋 <a href="#requirements">Requirements</a>
+    <a href="#requirements">Requirements</a>
     <br>
-    📝 <a href="#instructions">Instructions</a>
+    <a href="#instructions">Instructions</a>
     <br>
-    🔨 <a href="#tech-stack">Tech stack</a>
+    <a href="#tech-stack">Tech stack</a>
     <br>
-    📂 <a href="#files-description">Files description</a>
+    <a href="#files-description">Files description</a>
     <br>
-    💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
     <br>
-    ♥️ <a href="#thanks">Thanks</a>
+    <a href="#thanks">Thanks</a>
     <br>
-    👷 <a href="#authors">Authors</a>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📄 <span id="description">Description</span>
+## <span id="description">Description</span>
 
 In this project, I have to implement a function in C that determines whether a given unsigned long integer is a palindrome.
-<br>
+
 A palindrome integer reads the same backward as forward.
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
-At the end of this project, I had to be able to explain to anyone, **without the help of Google** :
+At the end of this project, I should be able to explain to anyone, **without the help of Google**:
 
 - How to reverse an integer algorithmically without using dynamic memory allocation.
 - How to compare digits to determine palindromicity.
 - How to handle edge cases, such as single-digit numbers and numbers ending with zero.
 - How to structure C code with header files and implementation files following Betty style guidelines.
 
-## 📋 <span id="requirements">Requirements</span>
+## <span id="requirements">Requirements</span>
 
 - My programs and functions will be compiled with `gcc` using the flags `-Wall`, `-Werror`, `-Wextra` and `-pedantic`.
 - All my files should end with a new line.
@@ -53,7 +53,9 @@ At the end of this project, I had to be able to explain to anyone, **without the
 - Don’t forget to push my header file...
 - All my header files should be include guarded.
 
-## 📝 <span id="instructions">Instructions</span>
+## <span id="instructions">Instructions</span>
+
+### Mandatory
 
 <details>
     <summary>
@@ -130,7 +132,7 @@ alex@~/palindrome_integer$
 <hr>
 </details>
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/C-a8b9cc?logo=&logoColor=black&style=for-the-badge" alt="C badge">
@@ -140,7 +142,7 @@ alex@~/palindrome_integer$
     <img src="https://img.shields.io/badge/VIM-019733?logo=vim&logoColor=white&style=for-the-badge" alt="VIM badge">
 </p>
 
-## 📂 <span id="files-description">Files description</span>
+## <span id="files-description">Files description</span>
 
 | **FILES**           | **DESCRIPTION**                                           |
 | :-----------------: | --------------------------------------------------------- |
@@ -149,9 +151,9 @@ alex@~/palindrome_integer$
 | `0-main.c`          | Example `main.c` used for testing.                        |
 | `README.md`         | The README file you are currently reading 😉.             |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Installation:**
+### Installation:
 
 1. Clone this repository:
     - Open your preferred Terminal.
@@ -170,13 +172,13 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 cd palindrome_integer
 ```
 
-Compile the program using gcc:
+4. Compile the program using `gcc`:
 
 ```bash
 gcc -Wall -Wextra -Werror -pedantic -g3 -o palindrome 0-main.c 0-is_palindrome.c
 ```
 
-**How to use:**
+### How to use:
 
 1. Run the binary with a number argument:
 
@@ -192,11 +194,11 @@ gcc -Wall -Wextra -Werror -pedantic -g3 -o palindrome 0-main.c 0-is_palindrome.c
 
 3. Try with other numbers as you want.
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
-A big thank you to all my Holberton School peers for their help and support throughout these projects.
+- A big thank you to all my Holberton School peers for their help and support throughout this project.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
 - GitHub: [@fchavonet](https://github.com/fchavonet)

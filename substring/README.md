@@ -178,7 +178,7 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 cd substring
 ```
 
-4. Compile the program using gcc:
+4. Compile the program using `gcc`:
 
 ```bash
 gcc -Wall -Wextra -Werror -pedantic main.c substring.c -o substring

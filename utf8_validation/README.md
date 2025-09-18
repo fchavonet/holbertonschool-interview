@@ -1,41 +1,41 @@
-<img height="50px" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/main/assets/images/logo-holberton_school.png" alt="Holberton School logo">
+<img height="50" align="right" src="https://raw.githubusercontent.com/fchavonet/fchavonet/refs/heads/main/assets/images/logo-holberton_school.webp" alt="Holberton School logo">
 
 # UTF-8 Validation
 
-## 🔖 Table of contents
+## Table of contents
 
 <details>
-        <summary>
-            CLICK TO ENLARGE 😇
-        </summary>
-        📄 <a href="#description">Description</a>
-        <br>
-        🎓 <a href="#objectives">Objectives</a>
-        <br>
-        📋 <a href="#requirements">Requirements</a>
-        <br>
-        📝 <a href="#instructions">Instructions</a>
-        <br>
-        🔨 <a href="#tech-stack">Tech stack</a>
-        <br>
-        📂 <a href="#files-description">Files description</a>
-        <br>
-        💻 <a href="#installation_and_how_to_use">Installation and how to use</a>
-        <br>
-        ♥️ <a href="#thanks">Thanks</a>
-        <br>
-        👷 <a href="#authors">Authors</a>
+    <summary>
+        CLICK TO ENLARGE 😇
+    </summary>
+    <a href="#description">Description</a>
+    <br>
+    <a href="#objectives">Objectives</a>
+    <br>
+    <a href="#requirements">Requirements</a>
+    <br>
+    <a href="#instructions">Instructions</a>
+    <br>
+    <a href="#tech-stack">Tech stack</a>
+    <br>
+    <a href="#files-description">Files description</a>
+    <br>
+    <a href="#installation_and_how_to_use">Installation and how to use</a>
+    <br>
+    <a href="#thanks">Thanks</a>
+    <br>
+    <a href="#authors">Authors</a>
 </details>
 
-## 📄 <span id="description">Description</span>
+## <span id="description">Description</span>
 
 This project focuses on creating a Python module to validate whether a given data set represents a valid UTF-8 encoding. UTF-8 is a variable-width character encoding used for electronic communication, where each character can be represented by 1 to 4 bytes.
 
 The module verifies that all sequences of bytes adhere to UTF-8 encoding rules and detects invalid encodings.
 
-## 🎓 <span id="objectives">Objectives</span>
+## <span id="objectives">Objectives</span>
 
-At the end of this project, I had to be able to explain to anyone, **without the help of Google** :
+At the end of this project, I should be able to explain to anyone, **without the help of Google**:
 
 - What UTF-8 is and why it’s used.
 - How UTF-8 encodes characters in 1 to 4 bytes.
@@ -43,16 +43,18 @@ At the end of this project, I had to be able to explain to anyone, **without the
 - How to manipulate bits in Python to check byte patterns.
 - Implementing an efficient algorithm to validate UTF-8 sequences.
 
-## 📋 <span id="requirements">Requirements</span>
+## <span id="requirements">Requirements</span>
 
 - All my files should end with a new line.
 - The first line of all my files should be exactly `#!/usr/bin/python3`.
 - A `README.md` file, at the root of the folder of the project, is mandatory.
 - My code should be documented.
-- My code should use the `PEP 8` style (version 1.7.x).
+- My code should use the `PEP` 8 style (version 1.7.x).
 - All my files must be executable.
 
-## 📝 <span id="instructions">Instructions</span>
+## <span id="instructions">Instructions</span>
+
+### Mandatory
 
 <details>
     <summary>
@@ -69,7 +71,7 @@ Write a method that determines if a given data set represents a valid UTF-8 enco
 - The data will be represented by a list of integers.
 - Each integer represents 1 byte of data, therefore you only need to handle the 8 least significant bits of each integer.
 
-```
+```bash
 carrie@ubuntu:~/utf8_validation$ cat 0-main.py
 #!/usr/bin/python3
 """
@@ -90,7 +92,7 @@ print(validUTF8(data))
 carrie@ubuntu:~/utf8_validation$
 ```
 
-```
+```bash
 carrie@ubuntu:~/utf8_validation$ ./0-main.py
 True
 True
@@ -106,32 +108,34 @@ carrie@ubuntu:~/utf8_validation$
 <hr>
 </details>
 
-## 🔨 <span id="tech-stack">Tech stack</span>
+## <span id="tech-stack">Tech stack</span>
 
 <p align="left">
     <img src="https://img.shields.io/badge/PYTHON-3776ab?logo=python&logoColor=white&style=for-the-badge" alt="Python badge">
     <img src="https://img.shields.io/badge/GIT-f05032?logo=git&logoColor=white&style=for-the-badge" alt="Git badge">
     <img src="https://img.shields.io/badge/GITHUB-181717?logo=github&logoColor=white&style=for-the-badge" alt="GitHub badge">
+    <img src="https://img.shields.io/badge/MARKDOWN-000000?logo=markdown&logoColor=white&style=for-the-badge" alt="Markdown badge">
+    <img src="https://img.shields.io/badge/VS CODE-007acc?logo=data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyBmaWxsPSIjZmZmZmZmIiB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9Ii0wLjUgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4KDTxwYXRoIGQ9Im0xNy44NTggMjMuOTk4LTkuNzcxLTkuNDg0LTUuODY2IDQuNDY1LTIuMjIxLTEuMTE1di0xMS43MTlsMi4yMzQtMS4xMjEgNS44NyA0LjQ2OSA5Ljc0Ny05LjQ5MyA1LjU4NyAyLjIzOXYxOS41MzFsLTUuNTc5IDIuMjN6bS0uNTYzLTE2LjE4Ni01LjU3NyA0LjE3MyA1LjU4IDQuMjAyem0tMTQuNTA3IDEuNjg1djUuMDE2bDIuNzg3LTIuNTI1eiIvPgoNPC9nPgoNPC9zdmc+&logoColor=white&style=for-the-badge" alt="VS Code badge">
 </p>
 
-## 📂 <span id="files-description">File description</span>
+## <span id="files-description">Files description</span>
 
-| **FILE**             | **DESCRIPTION**                                                             |
+| **FILES**              | **DESCRIPTION**                                                           |
 | :------------------: | --------------------------------------------------------------------------- |
 | `0-validate_utf8.py` | The main Python file containing the validation logic.                       | 
 | `0-main.py`          | Sample main program to test the `validUTF8` function with different inputs. |
-| `README.md`          | The readme file you are currently reading 😉.                               |
+| `README.md`          | The README file you are currently reading 😉.                               |
 
-## 💻 <span id="installation_and_how_to_use">Installation and how to use</span>
+## <span id="installation_and_how_to_use">Installation and how to use</span>
 
-**Instalation:**
+### Installation:
 
 1. Clone this repository:
     - Open your preferred Terminal.
     - Navigate to the directory where you want to clone the repository.
     - Run the following command:
 
-```
+```bash
 git clone https://github.com/fchavonet/holbertonschool-interview.git
 ```
 
@@ -139,31 +143,31 @@ git clone https://github.com/fchavonet/holbertonschool-interview.git
 
 3. Navigate to the `utf8_validation` directory:
 
-```
+```bash
 cd utf8_validation
 ```
 
-4. Ensure the files are executable:
+4. Ensure Python files are executable:
 
-```
-chmod 777 0-validate_utf8.py.py 0-main.py
+```bash
+chmod +x 0-validate_utf8.py.py 0-main.py
 ```
 
-**How to use:**
+### How to use:
 
 1. To test the function, run the `0-main.py` file with the following command:
 
-```
+```bash
 ./0-main.py
 ```
 
-2. You can modify the `0-main.py` script with your own test cases if you want.
+> You can modify the `0-main.py` script with your own test cases if you want.
 
-## ♥️ <span id="thanks">Thanks</span>
+## <span id="thanks">Thanks</span>
 
-A big thank you to all my Holberton School peers for their help and support throughout these projects.
+- A big thank you to all my Holberton School peers for their help and support throughout this project.
 
-## 👷 <span id="authors">Authors</span>
+## <span id="authors">Authors</span>
 
 **Fabien CHAVONET**
-- Github: [@fchavonet](https://github.com/fchavonet)
+- GitHub: [@fchavonet](https://github.com/fchavonet)
