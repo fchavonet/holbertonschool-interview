@@ -54,7 +54,7 @@ static void merge_sort_rec(int *array, int *tmp, size_t left, size_t right)
 		return;
 	}
 
-	mid = left + (right - left) / 2;
+	mid = left + (right - left - 1) / 2;
 
 	merge_sort_rec(array, tmp, left, mid);
 	merge_sort_rec(array, tmp, mid + 1, right);
