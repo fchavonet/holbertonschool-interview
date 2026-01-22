@@ -2,22 +2,7 @@
 
 # Interview (Algorithms)
 
-## Table of contents
-
-<details>
-    <summary>
-        CLICK TO ENLARGE 😇
-    </summary>
-    <a href="#description">Description</a>
-    <br>
-    <a href="#files-description">Files description</a>
-    <br>
-    <a href="#thanks">Thanks</a>
-    <br>
-    <a href="#authors">Authors</a>
-</details>
-
-## <span id="description">Description</span>
+## Description
 
 This repository contains various algorithmic and technical interview preparation exercises developed as part of the Holberton School curriculum.
 
@@ -25,14 +10,15 @@ Each folder represents a standalone problem-solving project, focused on improvin
 
 These exercises are meant to sharpen problem-solving skills, prepare for technical interviews, and reinforce key computer science fundamentals.
 
-## <span id="files-description">Files description</span>
+## File Description
 
-| **FILES**                | **DESCRIPTION**                                                                                  |
+| **FILE**                 | **DESCRIPTION**                                                                                  |
 | :----------------------: | ------------------------------------------------------------------------------------------------ |
 | `assets`                 | Contains the resources required for the repository.                                              |
 | `count_it`               | Implements a Python recursive function that queries Reddit and counts keyword occurrences.       |
+| `heap_insert`            | Implements a Max Binary Heap in C with value insertion while preserving heap properties.         |
 | `island_perimeter`       | Implements an algorithm to calculate the perimeter of an island in a grid.                       |
-| `linked_list_palindrome` | Implements an algorithm to check if a singly linked list is a palindrome.                        | 
+| `linked_list_palindrome` | Implements an algorithm to check if a singly linked list is a palindrome.                        |
 | `lockboxes`              | Implements an algorithm to determine if all boxes can be opened given the keys.                  |
 | `log_parsing`            | Implements a Python script to parse HTTP logs, compute total size, and count status codes.       |
 | `making_change`          | Implements an algorithm to determine the minimum number of coins for a given amount.             |
@@ -55,11 +41,11 @@ These exercises are meant to sharpen problem-solving skills, prepare for technic
 
 > Each folder contains its own `README.md` file with a detailed explanation.
 
-## <span id="thanks">Thanks</span>
+## Thanks
 
 - A big thank you to all my Holberton School peers for their help and support throughout these projects.
 
-## <span id="authors">Authors</span>
+## Author(s)
 
 **Fabien CHAVONET**
 - GitHub: [@fchavonet](https://github.com/fchavonet)
